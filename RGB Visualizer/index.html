@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="header-container">
+      <h1>RGB Color</h1>
+    </div>
+    <div class="hex-container">
+      <label>Hex Value:</label>
+    </div>
+    <input id="hex"> 
+    <br>
+    <div class="input-container">
+      <label for="red">R:</label>
+      <input id="red" type="number" min="0" max="255" step="1">
+      <div class="slider-container">
+        <input type="range" id="red-slider" min="0" max="255" value="0">
+        <output id="red-output"></output>
+      </div>
+    </div>
+    <div class="input-container">
+      <label for="green">G:</label>
+      <input id="green" type="number" min="0" max="255" step="1">
+      <div class="slider-container">
+        <input type="range" id="green-slider" min="0" max="255" value="0">
+        <output id="green-output"></output>
+      </div>
+    </div>
+    <div class="input-container">
+      <label for="blue">B:</label>
+      <input id="blue" type="number" min="0" max="255" step="1">
+      <div class="slider-container">
+        <input type="range" id="blue-slider" min="0" max="255" value="0">
+        <output id="blue-output"></output>
+      </div>
+      
+    </div>
+    <br><br><br><br>
+    <div class="container">
+      <h6>By: Nick Rehberg</h6>
+    </div>
+    
+      <script src="script.js"></script>
+  </body>
+</html>
